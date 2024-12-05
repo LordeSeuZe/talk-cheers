@@ -1,10 +1,39 @@
 body{
+    margin: 0;
     font-size: 20px;
 }
-#over-pag1{
-    background-color: #34495E;
+header {
+    font-family: "logo";
+    background-color: #202e3c;
+    color: #f7f7f7;
     display: flex;
     flex-direction: row;
+}
+header h1{
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+#buttons-header{
+   position: absolute;
+   right: 10px;
+   top: 10px;
+}
+
+#buttons-header button{
+    justify-content: flex-end;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #2dff81;
+    background-color: #61dc92;
+    margin: 15px 30px;
+}
+
+#over-pag1{
+    padding: 45px 0;
+    background-color: #34495E;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -29,6 +58,7 @@ body{
     align-items: center;
 }
 #buttons-access button {
+    font-size: 20px;
     font-family: "bold";
     margin: 30px auto;
     background-color: #61dc92;
@@ -37,3 +67,46 @@ body{
     border-radius: 20px;
     border-color: #2dff81;
 }
+button:hover {
+    background-color: #34495E;
+    cursor: pointer;
+}
+
+/*PLANOS*/
+#zoneOfScheme{
+    margin: 80px 0 ;
+}
+#tag {
+    margin: 10px 0;
+    padding: 0 20px 0 20px;   
+    background-color: #34495E;
+    width: 150px;
+    border-radius: 0 20px 20px 0;
+    font-family: "logo";
+
+} 
+
+#tag h1{
+    color: #F7F7F7;
+}
+
+#scheme {
+    display: flex;
+    justify-content: center;
+}
+
+#scheme img {
+
+    width: 300px;
+    height: 400px;
+}
+#subscription{
+    margin: 0 40%;
+    display: flex;
+    justify-content: center;
+}
+#c{
+    margin: 50px 40px;
+    margin-bottom: 100px;
+}
+
