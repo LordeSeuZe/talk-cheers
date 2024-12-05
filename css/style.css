@@ -1,16 +1,27 @@
 body{
     margin: 0;
+    height: 100%;
+    width: 100%;
     font-size: 20px;
+    background-color: var(--neutral-color);
 }
 header {
     font-family: "logo";
     background-color: #202e3c;
-    color: #f7f7f7;
+    color: var(--neutral-color);
     display: flex;
     flex-direction: row;
 }
 header h1{
     padding: 0 30px;
+    cursor: pointer;
+}
+button{
+    font-family: "bold";
+}
+button:hover {
+    font-family: "logo";
+    color: #ffdd33c0;
     cursor: pointer;
 }
 
@@ -25,14 +36,14 @@ header h1{
     width: 100px;
     height: 50px;
     border-radius: 10px;
-    border-color: #2dff81;
-    background-color: #61dc92;
+    border-color: var(--secondary-color);
+    background-color: var(--suport-color);
     margin: 15px 30px;
 }
 
 #over-pag1{
     padding: 45px 0;
-    background-color: #34495E;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +59,7 @@ header h1{
     align-items: center;
     text-align: center;
     font-size: 50px; 
-    color: #F7F7F7;
+    color: var(--neutral-color);
     font-family: "logo";
 }
 #buttons-access {
@@ -59,44 +70,43 @@ header h1{
 }
 #buttons-access button {
     font-size: 20px;
-    font-family: "bold";
     margin: 30px auto;
-    background-color: #61dc92;
+    background-color: var(--suport-color);
     width: 150px;
     height: 75px;
     border-radius: 20px;
-    border-color: #2dff81;
+    border-color: var(--secondary-color);
 }
-button:hover {
-    background-color: #34495E;
-    cursor: pointer;
-}
+
 
 /*PLANOS*/
 #zoneOfScheme{
-    margin: 80px 0 ;
+    padding: 60px 0 0 0 ;
 }
 #tag {
     margin: 10px 0;
     padding: 0 20px 0 20px;   
-    background-color: #34495E;
+    background-color: var(--primary-color);
     width: 150px;
     border-radius: 0 20px 20px 0;
     font-family: "logo";
-
 } 
-
 #tag h1{
-    color: #F7F7F7;
+    color: var(--neutral-color);
 }
 
 #scheme {
+    padding: 20px 0 0 0;
+    width: 80%;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: var(--neutral-color);
     display: flex;
     justify-content: center;
 }
 
 #scheme img {
-
+    border-radius: 30px;
     width: 300px;
     height: 400px;
 }
@@ -104,9 +114,15 @@ button:hover {
     margin: 0 40%;
     display: flex;
     justify-content: center;
+    background-color: var(--suport-color);
+    border-color: var(--secondary-color);
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    align-items: center;
 }
 #c{
-    margin: 50px 40px;
+    margin: 50px 40px 0 40px;
     margin-bottom: 100px;
 }
 
