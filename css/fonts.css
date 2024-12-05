@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "logo";
+    src: url(../fonts/Mogra-Regular.ttf);
+}
+@font-face {
+    font-family: "bold";
+    src: url(../fonts/Inter_18pt-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/Inter_18pt-Regular.ttf);
+}

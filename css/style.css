@@ -1,0 +1,39 @@
+body{
+    font-size: 20px;
+}
+#over-pag1{
+    background-color: #34495E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#access {
+    width: 500px;
+    height: 300px;
+    padding: 40px;
+}
+#access span {
+    border-color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 50px; 
+    color: #F7F7F7;
+    font-family: "logo";
+}
+#buttons-access {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#buttons-access button {
+    font-family: "bold";
+    margin: 30px auto;
+    background-color: #61dc92;
+    width: 150px;
+    height: 75px;
+    border-radius: 20px;
+    border-color: #2dff81;
+}
